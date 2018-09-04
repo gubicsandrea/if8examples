@@ -14,4 +14,9 @@ public class ZooKeeper {
     public String getName() {
         return name;
     }
+
+    //TODO: implement
+    public void addFood(Animal animal, Food food) {
+
+    }
 }

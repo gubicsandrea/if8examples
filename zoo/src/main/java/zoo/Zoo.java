@@ -13,4 +13,9 @@ public class Zoo {
     public List<Location> getLocations() {
         return locations;
     }
+
+    //TODO: implement: remove from old location as well
+    public void moveAnimal(Animal animal, Location newLocation) {
+
+    }
 }

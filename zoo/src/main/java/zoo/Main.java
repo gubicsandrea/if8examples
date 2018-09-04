@@ -3,7 +3,7 @@ package zoo;
 public class Main {
 
     public static void main(String[] args) {
-        Animal lion = new Lion("Leo", 150);
+        Lion lion = new Lion("Leo", 150);
         Animal rabbit = new Rabbit("Roger", 10);
         Location location = new Location();
         location.addAnimal(lion, rabbit);
@@ -19,5 +19,12 @@ public class Main {
 
         //lion.eat(Food.EUKALIPTUS);
         System.out.println(lion);
+
+        Parrot parrot = new Parrot("Gyurrika", 1);
+        Animal animal = parrot;
+        Object object = parrot;
+        CanMove canMove = parrot;
+        canMove.move();
+        CanMakeSound canMakeSound = parrot;
     }
 }

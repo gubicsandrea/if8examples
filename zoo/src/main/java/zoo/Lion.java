@@ -1,6 +1,6 @@
 package zoo;
 
-public class Lion extends Animal implements CanMakeSound {
+public class Lion extends Animal implements CanMakeSound, CanMove {
 
     private static final String SOUND = "roar";
 
@@ -28,5 +28,10 @@ public class Lion extends Animal implements CanMakeSound {
         if (food == Food.MEAT) {
             this.modifyWeight(food.getWeight());
         }
+    }
+
+    @Override
+    public String move() {
+        return "Run";
     }
 }
