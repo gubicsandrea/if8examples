@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<all>
+    <task priority="1">
+        <title>Plan base classes</title>
+        <description>Plan the Task class: priority, title, description, state</description>
+        <state>FINISHED</state>
+    </task>
+    <task priority="2">
+        <title>Create Xml loader</title>
+        <description>Implement a class that loads Task list from xml</description>
+        <state>PENDING</state>
+    </task>
+    <task priority="3">
+        <title>Create XML writer</title>
+        <description>Should save the task list after usage into the xml file. Plan and create a TaskSaver class.
+        </description>
+        <state>DELETED</state>
+    </task>
+    <task priority="2">
+        <title>Create base classes</title>
+        <description>Implement the Task class: priority, title, description, state. State should be an enum.
+        </description>
+        <state>STARTED</state>
+    </task>
+    <task priority="1">
+        <title>Plan xml file format</title>
+        <description>Plan the xml structure to store tasks</description>
+        <state>STARTED</state>
+    </task>
+</all>
