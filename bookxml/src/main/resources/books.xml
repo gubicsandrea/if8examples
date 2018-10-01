@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<all>
+    <book isbn="1234" limit="18">
+        <title>Az</title>
+        <author>King</author>
+        <available/>
+        <year>2014</year>
+    </book>
+    <book isbn="4579" limit="12">
+        <title>Fekete prizma</title>
+        <author>Weeks</author>
+        <year>2015</year>
+    </book>
+    <book isbn="6547">
+        <title>OCA</title>
+        <author>Boyarski</author>
+        <available/>
+        <year>2017</year>
+    </book>
+</all>
